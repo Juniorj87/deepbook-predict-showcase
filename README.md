@@ -277,7 +277,7 @@ docker-compose -f docker-compose.predict.yml up
 
 ## Summary
 
-This implementation demonstrates that DeepBook V3's prediction market extension is production-ready. The full stack — from on-chain contracts to automated oracle services — works end-to-end with real money (testnet USDC).
+This implementation demonstrates that DeepBook V3's prediction market extension is production-ready. The full stack — from on-chain contracts to automated oracle services — works end-to-end with real money (testnet DEEP).
 
 The bugs we found and fixed were all addressable within the existing architecture. The most critical was the SVI parameter validation gap, which could have been exploited for pricing manipulation.
 
