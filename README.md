@@ -3,6 +3,10 @@
 > **Author:** @aslantashtanov
 > **Date:** June 2026
 > **Status:** Deployed on Sui Testnet, 1017+ positions settled and claimed
+>
+> **Operational Wallet (Testnet):** [`0x55fee70acf52cfaa295c3d995264bfeec53d7db0be3040e2c1e3eac017251e49`](https://suiscan.xyz/testnet/account/0x55fee70acf52cfaa295c3d995264bfeec53d7db0be3040e2c1e3eac017251e49)
+>
+> All 1,017+ claim transactions and 1,682 position mints were executed from this wallet.
 
 ---
 
