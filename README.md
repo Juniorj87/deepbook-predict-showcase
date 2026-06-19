@@ -219,7 +219,7 @@ User mints UP position at strike 5000
   → Settlement detected (settlement_price > strike)
   → Position state: OPEN → SETTLED → CLAIMABLE
   → Bot submits redeem transaction
-  → Payout dispensed from vault (100 USDC)
+  → Payout dispensed from vault (100 DEEP)
   → Position state: CLAIMABLE → CLAIMED
 ```
 
