@@ -160,40 +160,42 @@ All transactions are on **Sui Testnet**. Click any link to view in [Sui Explorer
 | 2026-06-15 18:23:14 | ETH | UP | 1,800 | [`A4rjxxXHYN28M8QwyKg5Y4RnrhoR5ZMFSbGKbYJmh8Lx`](https://suiscan.xyz/testnet/tx/A4rjxxXHYN28M8QwyKg5Y4RnrhoR5ZMFSbGKbYJmh8Lx) |
 | 2026-06-15 18:23:25 | DEEP | UP | 0.018 | [`3ELCyBwSQgNkGGxeBabg77bX71pbJ9idrgm98NHcAnPM`](https://suiscan.xyz/testnet/tx/3ELCyBwSQgNkGGxeBabg77bX71pbJ9idrgm98NHcAnPM) |
 
-### Claim Transactions (Reward Redemption — 100 USDC each)
+### Claim Transactions (Reward Redemption — 100 DEEP each)
+
+Each claim pays out **100 DEEP** (100,000,000,000 raw units, 9 decimals) to the winner.
 
 | Time | Position | Amount | Digest |
 |------|----------|--------|--------|
-| 2026-06-15 18:23:32 | `5eKS41FS...` | 100 USDC | [`BjUvgnG68LnRSspqfmbjc5q8EEQbee96bQWVrALggzi4`](https://suiscan.xyz/testnet/tx/BjUvgnG68LnRSspqfmbjc5q8EEQbee96bQWVrALggzi4) |
-| 2026-06-15 18:23:35 | `DRDp27B1...` | 100 USDC | [`BcUfTK1FMHSro9JYUmqHSf9KT49b5cWncGdx2NvtuLLG`](https://suiscan.xyz/testnet/tx/BcUfTK1FMHSro9JYUmqHSf9KT49b5cWncGdx2NvtuLLG) |
-| 2026-06-15 18:23:39 | `2b6a6N7D...` | 100 USDC | [`4Ao1LpbbxPLJq4tWjj4YHAqKhmK7e4n9b9bmQzqPo29V`](https://suiscan.xyz/testnet/tx/4Ao1LpbbxPLJq4tWjj4YHAqKhmK7e4n9b9bmQzqPo29V) |
-| 2026-06-15 18:23:43 | `8LcE4RsJ...` | 100 USDC | [`k73YRmFXq8RsdBzbYrv5NVXA8QMZD1nmiqTMoFxz3kH`](https://suiscan.xyz/testnet/tx/k73YRmFXq8RsdBzbYrv5NVXA8QMZD1nmiqTMoFxz3kH) |
-| 2026-06-15 18:23:48 | `8XticbEK...` | 100 USDC | [`EmKo3mjg2n8TF8sBSabNpfD8FUH1p1YTn5c9Zcu2rCfR`](https://suiscan.xyz/testnet/tx/EmKo3mjg2n8TF8sBSabNpfD8FUH1p1YTn5c9Zcu2rCfR) |
-| 2026-06-15 18:23:52 | `CGfse8c7...` | 100 USDC | [`CQxsqVJg4CsUTaT4a3WM9yzXc654Ft58C6KftXcvsmZE`](https://suiscan.xyz/testnet/tx/CQxsqVJg4CsUTaT4a3WM9yzXc654Ft58C6KftXcvsmZE) |
-| 2026-06-15 18:23:56 | `AJ1oaXgU...` | 100 USDC | [`FVJEeg6HJ5m6VRzhk4E7tdYRruTxsvLqHsb4cM3tpHj5`](https://suiscan.xyz/testnet/tx/FVJEeg6HJ5m6VRzhk4E7tdYRruTxsvLqHsb4cM3tpHj5) |
-| 2026-06-15 18:23:59 | `2en1zZfw...` | 100 USDC | [`7fW4oZSe5KKaHqg2irJuSTnGFqz87jHmkQNcyFQb2N8T`](https://suiscan.xyz/testnet/tx/7fW4oZSe5KKaHqg2irJuSTnGFqz87jHmkQNcyFQb2N8T) |
-| 2026-06-15 18:24:02 | `8tyoGoZK...` | 100 USDC | [`DewWFLFZSrtvsr17HpgvCq9aKG3EowJam67mKEHznXmw`](https://suiscan.xyz/testnet/tx/DewWFLFZSrtvsr17HpgvCq9aKG3EowJam67mKEHznXmw) |
-| 2026-06-15 18:24:06 | `5gFuEiWq...` | 100 USDC | [`8gxTXQftBfroPk4a4NTqrR5NHsviTZGujfZDf8ES3n4i`](https://suiscan.xyz/testnet/tx/8gxTXQftBfroPk4a4NTqrR5NHsviTZGujfZDf8ES3n4i) |
-| 2026-06-15 18:24:07 | `14LB9EWS...` | 100 USDC | [`9HJ5A7ACRJ8dVouPByqyf5MkWnY3A3CnTECGGBjSYNF7`](https://suiscan.xyz/testnet/tx/9HJ5A7ACRJ8dVouPByqyf5MkWnY3A3CnTECGGBjSYNF7) |
-| 2026-06-15 18:24:16 | `Cwb1dquP...` | 100 USDC | [`4CaAPqimzHyUL55b8HjouVEqx91cu7RcKXD9wvPHpqHP`](https://suiscan.xyz/testnet/tx/4CaAPqimzHyUL55b8HjouVEqx91cu7RcKXD9wvPHpqHP) |
-| 2026-06-15 18:24:18 | `HE2LasSS...` | 100 USDC | [`3KAFm3NptmGjzXE6Rw5wW63NKuewqVqf8F3Wp7mxhWx5`](https://suiscan.xyz/testnet/tx/3KAFm3NptmGjzXE6Rw5wW63NKuewqVqf8F3Wp7mxhWx5) |
-| 2026-06-15 23:48:24 | `CBkhgPYe...` | 100 USDC | [`5NPcDxJaVDq2FhtZMnzUjhxBMJSUAA4Wu35bDqwQTKyt`](https://suiscan.xyz/testnet/tx/5NPcDxJaVDq2FhtZMnzUjhxBMJSUAA4Wu35bDqwQTKyt) |
-| 2026-06-16 00:19:55 | `6G7r29ay...` | 100 USDC | [`3dM1MpA3SeahmxKAqsH44JHoVMdHnXCNB1CGGbjkM5MA`](https://suiscan.xyz/testnet/tx/3dM1MpA3SeahmxKAqsH44JHoVMdHnXCNB1CGGbjkM5MA) |
-| 2026-06-16 00:19:58 | `4TJWLS5T...` | 100 USDC | [`HNCUutoBKdsg53fsVvMcX33o4etKqDGQMvsqLiDgakbZ`](https://suiscan.xyz/testnet/tx/HNCUutoBKdsg53fsVvMcX33o4etKqDGQMvsqLiDgakbZ) |
-| 2026-06-16 00:20:02 | `FMvMWVRc...` | 100 USDC | [`9BWRwvGBamv4jzJrMbTtbtJPuA2TyyXzarjFppaV1VKG`](https://suiscan.xyz/testnet/tx/9BWRwvGBamv4jzJrMbTtbtJPuA2TyyXzarjFppaV1VKG) |
-| 2026-06-16 00:20:03 | `A4rjxxXH...` | 100 USDC | [`G4HmQuf3MdqW6ANknWcg8dKWkr6Hsag4ybmNzivTVJV9`](https://suiscan.xyz/testnet/tx/G4HmQuf3MdqW6ANknWcg8dKWkr6Hsag4ybmNzivTVJV9) |
-| 2026-06-16 00:20:07 | `F1qoSfnx...` | 100 USDC | [`6Kiqg1PdQwjFt8sVps6CW31rxkeRwvTYFsYJym9rQgXk`](https://suiscan.xyz/testnet/tx/6Kiqg1PdQwjFt8sVps6CW31rxkeRwvTYFsYJym9rQgXk) |
-| 2026-06-16 00:20:10 | `CDXNiD8C...` | 100 USDC | [`AWiyFvNVtWsGbwzXN4aheRU3aYo2nNWG2ePkYgqpVgkZ`](https://suiscan.xyz/testnet/tx/AWiyFvNVtWsGbwzXN4aheRU3aYo2nNWG2ePkYgqpVgkZ) |
-| 2026-06-16 00:20:14 | `AQ2dvTQa...` | 100 USDC | [`56cbhPSa8f7tTrH7Dpgm6QZftmsgHozoU1diyk5Puuut`](https://suiscan.xyz/testnet/tx/56cbhPSa8f7tTrH7Dpgm6QZftmsgHozoU1diyk5Puuut) |
-| 2026-06-16 00:20:17 | `8USs2QhT...` | 100 USDC | [`2xmW6FBekH1itrK3zW4yHY9zCgYCUJW9aXhRaWp8Fu6g`](https://suiscan.xyz/testnet/tx/2xmW6FBekH1itrK3zW4yHY9zCgYCUJW9aXhRaWp8Fu6g) |
-| 2026-06-16 00:20:19 | `AzT4XcAe...` | 100 USDC | [`8Vp8o3nu4Wjh4AmrYi7dKWn8sMLMch9p2atFTngduNWH`](https://suiscan.xyz/testnet/tx/8Vp8o3nu4Wjh4AmrYi7dKWn8sMLMch9p2atFTngduNWH) |
-| 2026-06-16 00:20:20 | `43hSPWio...` | 100 USDC | [`6gsV615dMSX4FyW8MEnpW1yJtNtbiVheWuZwC9i2PBJT`](https://suiscan.xyz/testnet/tx/6gsV615dMSX4FyW8MEnpW1yJtNtbiVheWuZwC9i2PBJT) |
-| 2026-06-16 00:20:23 | `DRVRjUku...` | 100 USDC | [`9Zcq6aAeg1JQEo96e8Bgq4KrgbyQkHbofZQfdfyaqekX`](https://suiscan.xyz/testnet/tx/9Zcq6aAeg1JQEo96e8Bgq4KrgbyQkHbofZQfdfyaqekX) |
-| 2026-06-16 00:20:25 | `BfSrcxPj...` | 100 USDC | [`6xRkLYZhtpRYwgPq5qHYrXqtJey1PHUhvX5FDsxRDVgG`](https://suiscan.xyz/testnet/tx/6xRkLYZhtpRYwgPq5qHYrXqtJey1PHUhvX5FDsxRDVgG) |
-| 2026-06-16 01:07:04 | `9DxP4v3B...` | 100 USDC | [`GbuXbKtfgzNjCdbGk8rEWvLVR8aKWeRn8XkvwF84KxAK`](https://suiscan.xyz/testnet/tx/GbuXbKtfgzNjCdbGk8rEWvLVR8aKWeRn8XkvwF84KxAK) |
-| 2026-06-16 01:07:06 | `GcRug9C5...` | 100 USDC | [`3VxpoDgffhXRiF5X1axNbZBMgQf67XaDypDZUGivrzoQ`](https://suiscan.xyz/testnet/tx/3VxpoDgffhXRiF5X1axNbZBMgQf67XaDypDZUGivrzoQ) |
-| 2026-06-16 01:07:09 | `Gn6YZikM...` | 100 USDC | [`bpin65d4y4W6NjikUiE8JhcSzKPNzU2aLGyPo4Weece`](https://suiscan.xyz/testnet/tx/bpin65d4y4W6NjikUiE8JhcSzKPNzU2aLGyPo4Weece) |
-| 2026-06-16 01:07:12 | `844nVrue...` | 100 USDC | [`7DZ4upc9bAb7wMbchbQuPn4BjdHfr7goPGKw1i26ZAsc`](https://suiscan.xyz/testnet/tx/7DZ4upc9bAb7wMbchbQuPn4BjdHfr7goPGKw1i26ZAsc) |
+| 2026-06-15 18:23:32 | `5eKS41FS...` | 100 DEEP | [`BjUvgnG68LnRSspqfmbjc5q8EEQbee96bQWVrALggzi4`](https://suiscan.xyz/testnet/tx/BjUvgnG68LnRSspqfmbjc5q8EEQbee96bQWVrALggzi4) |
+| 2026-06-15 18:23:35 | `DRDp27B1...` | 100 DEEP | [`BcUfTK1FMHSro9JYUmqHSf9KT49b5cWncGdx2NvtuLLG`](https://suiscan.xyz/testnet/tx/BcUfTK1FMHSro9JYUmqHSf9KT49b5cWncGdx2NvtuLLG) |
+| 2026-06-15 18:23:39 | `2b6a6N7D...` | 100 DEEP | [`4Ao1LpbbxPLJq4tWjj4YHAqKhmK7e4n9b9bmQzqPo29V`](https://suiscan.xyz/testnet/tx/4Ao1LpbbxPLJq4tWjj4YHAqKhmK7e4n9b9bmQzqPo29V) |
+| 2026-06-15 18:23:43 | `8LcE4RsJ...` | 100 DEEP | [`k73YRmFXq8RsdBzbYrv5NVXA8QMZD1nmiqTMoFxz3kH`](https://suiscan.xyz/testnet/tx/k73YRmFXq8RsdBzbYrv5NVXA8QMZD1nmiqTMoFxz3kH) |
+| 2026-06-15 18:23:48 | `8XticbEK...` | 100 DEEP | [`EmKo3mjg2n8TF8sBSabNpfD8FUH1p1YTn5c9Zcu2rCfR`](https://suiscan.xyz/testnet/tx/EmKo3mjg2n8TF8sBSabNpfD8FUH1p1YTn5c9Zcu2rCfR) |
+| 2026-06-15 18:23:52 | `CGfse8c7...` | 100 DEEP | [`CQxsqVJg4CsUTaT4a3WM9yzXc654Ft58C6KftXcvsmZE`](https://suiscan.xyz/testnet/tx/CQxsqVJg4CsUTaT4a3WM9yzXc654Ft58C6KftXcvsmZE) |
+| 2026-06-15 18:23:56 | `AJ1oaXgU...` | 100 DEEP | [`FVJEeg6HJ5m6VRzhk4E7tdYRruTxsvLqHsb4cM3tpHj5`](https://suiscan.xyz/testnet/tx/FVJEeg6HJ5m6VRzhk4E7tdYRruTxsvLqHsb4cM3tpHj5) |
+| 2026-06-15 18:23:59 | `2en1zZfw...` | 100 DEEP | [`7fW4oZSe5KKaHqg2irJuSTnGFqz87jHmkQNcyFQb2N8T`](https://suiscan.xyz/testnet/tx/7fW4oZSe5KKaHqg2irJuSTnGFqz87jHmkQNcyFQb2N8T) |
+| 2026-06-15 18:24:02 | `8tyoGoZK...` | 100 DEEP | [`DewWFLFZSrtvsr17HpgvCq9aKG3EowJam67mKEHznXmw`](https://suiscan.xyz/testnet/tx/DewWFLFZSrtvsr17HpgvCq9aKG3EowJam67mKEHznXmw) |
+| 2026-06-15 18:24:06 | `5gFuEiWq...` | 100 DEEP | [`8gxTXQftBfroPk4a4NTqrR5NHsviTZGujfZDf8ES3n4i`](https://suiscan.xyz/testnet/tx/8gxTXQftBfroPk4a4NTqrR5NHsviTZGujfZDf8ES3n4i) |
+| 2026-06-15 18:24:07 | `14LB9EWS...` | 100 DEEP | [`9HJ5A7ACRJ8dVouPByqyf5MkWnY3A3CnTECGGBjSYNF7`](https://suiscan.xyz/testnet/tx/9HJ5A7ACRJ8dVouPByqyf5MkWnY3A3CnTECGGBjSYNF7) |
+| 2026-06-15 18:24:16 | `Cwb1dquP...` | 100 DEEP | [`4CaAPqimzHyUL55b8HjouVEqx91cu7RcKXD9wvPHpqHP`](https://suiscan.xyz/testnet/tx/4CaAPqimzHyUL55b8HjouVEqx91cu7RcKXD9wvPHpqHP) |
+| 2026-06-15 18:24:18 | `HE2LasSS...` | 100 DEEP | [`3KAFm3NptmGjzXE6Rw5wW63NKuewqVqf8F3Wp7mxhWx5`](https://suiscan.xyz/testnet/tx/3KAFm3NptmGjzXE6Rw5wW63NKuewqVqf8F3Wp7mxhWx5) |
+| 2026-06-15 23:48:24 | `CBkhgPYe...` | 100 DEEP | [`5NPcDxJaVDq2FhtZMnzUjhxBMJSUAA4Wu35bDqwQTKyt`](https://suiscan.xyz/testnet/tx/5NPcDxJaVDq2FhtZMnzUjhxBMJSUAA4Wu35bDqwQTKyt) |
+| 2026-06-16 00:19:55 | `6G7r29ay...` | 100 DEEP | [`3dM1MpA3SeahmxKAqsH44JHoVMdHnXCNB1CGGbjkM5MA`](https://suiscan.xyz/testnet/tx/3dM1MpA3SeahmxKAqsH44JHoVMdHnXCNB1CGGbjkM5MA) |
+| 2026-06-16 00:19:58 | `4TJWLS5T...` | 100 DEEP | [`HNCUutoBKdsg53fsVvMcX33o4etKqDGQMvsqLiDgakbZ`](https://suiscan.xyz/testnet/tx/HNCUutoBKdsg53fsVvMcX33o4etKqDGQMvsqLiDgakbZ) |
+| 2026-06-16 00:20:02 | `FMvMWVRc...` | 100 DEEP | [`9BWRwvGBamv4jzJrMbTtbtJPuA2TyyXzarjFppaV1VKG`](https://suiscan.xyz/testnet/tx/9BWRwvGBamv4jzJrMbTtbtJPuA2TyyXzarjFppaV1VKG) |
+| 2026-06-16 00:20:03 | `A4rjxxXH...` | 100 DEEP | [`G4HmQuf3MdqW6ANknWcg8dKWkr6Hsag4ybmNzivTVJV9`](https://suiscan.xyz/testnet/tx/G4HmQuf3MdqW6ANknWcg8dKWkr6Hsag4ybmNzivTVJV9) |
+| 2026-06-16 00:20:07 | `F1qoSfnx...` | 100 DEEP | [`6Kiqg1PdQwjFt8sVps6CW31rxkeRwvTYFsYJym9rQgXk`](https://suiscan.xyz/testnet/tx/6Kiqg1PdQwjFt8sVps6CW31rxkeRwvTYFsYJym9rQgXk) |
+| 2026-06-16 00:20:10 | `CDXNiD8C...` | 100 DEEP | [`AWiyFvNVtWsGbwzXN4aheRU3aYo2nNWG2ePkYgqpVgkZ`](https://suiscan.xyz/testnet/tx/AWiyFvNVtWsGbwzXN4aheRU3aYo2nNWG2ePkYgqpVgkZ) |
+| 2026-06-16 00:20:14 | `AQ2dvTQa...` | 100 DEEP | [`56cbhPSa8f7tTrH7Dpgm6QZftmsgHozoU1diyk5Puuut`](https://suiscan.xyz/testnet/tx/56cbhPSa8f7tTrH7Dpgm6QZftmsgHozoU1diyk5Puuut) |
+| 2026-06-16 00:20:17 | `8USs2QhT...` | 100 DEEP | [`2xmW6FBekH1itrK3zW4yHY9zCgYCUJW9aXhRaWp8Fu6g`](https://suiscan.xyz/testnet/tx/2xmW6FBekH1itrK3zW4yHY9zCgYCUJW9aXhRaWp8Fu6g) |
+| 2026-06-16 00:20:19 | `AzT4XcAe...` | 100 DEEP | [`8Vp8o3nu4Wjh4AmrYi7dKWn8sMLMch9p2atFTngduNWH`](https://suiscan.xyz/testnet/tx/8Vp8o3nu4Wjh4AmrYi7dKWn8sMLMch9p2atFTngduNWH) |
+| 2026-06-16 00:20:20 | `43hSPWio...` | 100 DEEP | [`6gsV615dMSX4FyW8MEnpW1yJtNtbiVheWuZwC9i2PBJT`](https://suiscan.xyz/testnet/tx/6gsV615dMSX4FyW8MEnpW1yJtNtbiVheWuZwC9i2PBJT) |
+| 2026-06-16 00:20:23 | `DRVRjUku...` | 100 DEEP | [`9Zcq6aAeg1JQEo96e8Bgq4KrgbyQkHbofZQfdfyaqekX`](https://suiscan.xyz/testnet/tx/9Zcq6aAeg1JQEo96e8Bgq4KrgbyQkHbofZQfdfyaqekX) |
+| 2026-06-16 00:20:25 | `BfSrcxPj...` | 100 DEEP | [`6xRkLYZhtpRYwgPq5qHYrXqtJey1PHUhvX5FDsxRDVgG`](https://suiscan.xyz/testnet/tx/6xRkLYZhtpRYwgPq5qHYrXqtJey1PHUhvX5FDsxRDVgG) |
+| 2026-06-16 01:07:04 | `9DxP4v3B...` | 100 DEEP | [`GbuXbKtfgzNjCdbGk8rEWvLVR8aKWeRn8XkvwF84KxAK`](https://suiscan.xyz/testnet/tx/GbuXbKtfgzNjCdbGk8rEWvLVR8aKWeRn8XkvwF84KxAK) |
+| 2026-06-16 01:07:06 | `GcRug9C5...` | 100 DEEP | [`3VxpoDgffhXRiF5X1axNbZBMgQf67XaDypDZUGivrzoQ`](https://suiscan.xyz/testnet/tx/3VxpoDgffhXRiF5X1axNbZBMgQf67XaDypDZUGivrzoQ) |
+| 2026-06-16 01:07:09 | `Gn6YZikM...` | 100 DEEP | [`bpin65d4y4W6NjikUiE8JhcSzKPNzU2aLGyPo4Weece`](https://suiscan.xyz/testnet/tx/bpin65d4y4W6NjikUiE8JhcSzKPNzU2aLGyPo4Weece) |
+| 2026-06-16 01:07:12 | `844nVrue...` | 100 DEEP | [`7DZ4upc9bAb7wMbchbQuPn4BjdHfr7goPGKw1i26ZAsc`](https://suiscan.xyz/testnet/tx/7DZ4upc9bAb7wMbchbQuPn4BjdHfr7goPGKw1i26ZAsc) |
 
 > **Note:** This is a sample of 30 claim transactions from a single session. The bot has processed **1,017+ total claims** across multiple sessions since deployment.
 
