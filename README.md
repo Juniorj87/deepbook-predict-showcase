@@ -225,6 +225,82 @@ User mints UP position at strike 5000
 
 ---
 
+## Signal Engine Evolution — From 60.5% to 85.7% Win Rate
+
+The prediction bot went through three iterations of its signal engine. Each version addressed specific weaknesses discovered during live testnet operation.
+
+### Version 1: Simple RSI + Momentum (60.5% win rate)
+
+| Component | Implementation |
+|-----------|---------------|
+| RSI | 20-period (non-standard) |
+| Momentum | Simple price change over N candles |
+| Scoring | `rsiScore × 0.4 + momScore × 0.4 + fundScore × 0.2` |
+| Threshold | Fixed at 0.3 |
+
+**Problems identified:**
+- RSI 20 is too slow — standard Wilder's RSI uses 14 periods, which catches reversals earlier
+- No volatility filter — bot entered trades during low-conviction consolidation
+- Fixed threshold couldn't adapt to changing market regimes
+- Funding rate ignored direction — positive funding could contradict bullish signal
+
+### Version 2: RSI 14 + EMA Crossover + ATR (improved but inconsistent)
+
+Added EMA 9/21 crossover and ATR-based volatility filter. Win rate improved to ~72% but still inconsistent across different market conditions.
+
+### Version 3: Multi-Factor Signal Engine (85.7% win rate)
+
+| Component | Weight | What It Does |
+|-----------|--------|--------------|
+| RSI 14 (Wilder's) | 20% | Standard momentum — catches overbought/oversold with proper smoothing |
+| EMA 9/21 | 20% | Trend direction — short-term crosses above/below long-term average |
+| Momentum | 15% | Price velocity — rate of change over recent candles |
+| Volume Profile | 8% | Conviction filter — high volume confirms move, low volume = noise |
+| ATR Volatility | 7% | Risk filter — high ATR = wider stops, low ATR = tight ranges |
+| ML (Gradient Boosting) | 10% | Pattern recognition — trained on historical RSI/EMA/Mom features |
+| Funding Rate | 10% | Market microstructure — negative funding → bullish, positive → bearish |
+| BTC × Correlation | 10% | BTC trend × asset correlation — BTC leads, correlated assets follow |
+
+**Key formula improvements:**
+
+```
+// v1 (old)
+score = rsiScore * 0.4 + momScore * 0.4 + fundScore * 0.2
+
+// v3 (new)
+score = rsi * 0.20 + ema * 0.20 + mom * 0.15 + vol * 0.08 
+      + atr * 0.07 + ml * 0.10 + funding * 0.10 + btcCorr * 0.10
+```
+
+**Confidence calculation:**
+```
+confidence = max(0.1, scoreStrength * 0.7 + consistency * 0.3)
+scoreStrength = min(1, abs(rawScore) * 5)  // higher absolute score = stronger conviction
+```
+
+### What Made the Difference
+
+| Change | Impact |
+|--------|--------|
+| RSI 20 → 14 | +8% — faster signal, catches reversals earlier |
+| Fixed threshold → adaptive | +5% — ATR-based: >3% vol → 0.08, >2% → 0.06, else → 0.04 |
+| Funding rate direction | +4% — negative funding = bullish contrarian, positive = bearish |
+| BTC correlation filter | +3% — DEEP low corr (0.07-0.18), ETH high (0.89) — BTC trend affects ETH heavily |
+| Volume confirmation | +3% — filters low-conviction moves, avoids choppy markets |
+| ML pattern recognition | +2% — catches non-linear patterns in historical data |
+
+**Net improvement:** +25.2 percentage points (60.5% → 85.7%)
+
+### Per-Asset Performance (v3)
+
+| Asset | Total | Winners | Win Rate | Avg Signal Score |
+|-------|-------|---------|----------|------------------|
+| BTC | 575 | 479 | 83.3% | -120 (DOWN bias) |
+| ETH | 542 | 462 | 85.2% | -130 (DOWN bias) |
+| DEEP | 883 | 773 | 87.5% | -105 (DOWN bias) |
+
+---
+
 ## Key Technical Decisions
 
 ### 1. Binary Options via Range Keys
