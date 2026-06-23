@@ -1,0 +1,31 @@
+# IDE
+.history/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+temp/
+logs/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.production
+.env.local
+.env.development
+
+# OS / Python / Rust build folders
+target/
+__pycache__/
+dist/
+build/

@@ -1,6 +1,6 @@
 # DeepBook Predict — Independent Implementation & Live Validation Report
 
-> **Author:** @aslantashtanov
+> **Author:** Evhenii (@Juniorj87)
 > **Date:** June 2026
 > **Status:** Deployed on Sui Testnet, 1714+ positions settled and claimed
 >
@@ -338,7 +338,8 @@ The oracle feed service runs a continuous loop:
 ## How to Reproduce
 
 ```bash
-git clone https://github.com/MystenLabs/deepbookv3.git
+# Clone the fork containing the prediction implementation
+git clone https://github.com/Juniorj87/deepbookv3.git
 cd deepbookv3
 git checkout local-predict-migration
 
